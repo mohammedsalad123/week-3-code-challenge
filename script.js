@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     getflims ()
 })
 function getflims (){
-    fetch("http://localhost:3000/films")
+    fetch("https://my-json-server.typicode.com/mohammedsalad123/week-3-code-challenge/films")
     .then (res =>res.json())
     
     .then (data=>{
